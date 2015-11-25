@@ -1,0 +1,1 @@
+select concat(substring(reverse(content), 1, 1), "-", substring(reverse(content), 2, 3), "-", substring(reverse(content), 6, 3), "-", substring(reverse(content), 10, 3), substring(reverse(content), 12, 1)) from Phone where subtype="fax";
