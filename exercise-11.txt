@@ -1,0 +1,25 @@
+select city from Address where country in ('Canada', 'Austria','Isle of Man','Ireland','Japan');                                       
++----------------+
+| city           |
++----------------+
+| Dubbo          |
+| Ceyhan         |
+| Jackson        |
+| Belfast        |
+| Tauranga       |
+| Rzeszów        |
+| Lasnigo        |
+| Nagaon         |
+| Terneuzen      |
+| Raj Nandgaon   |
+| Meridian       |
+| Mabompr?       |
+| Calmar         |
+| Hamburg        |
+| Quesada        |
+| Pabianice      |
+| Dover          |
+| Vienna         |
+| Berlin         |
+| Hillsboro      |
++----------------+
