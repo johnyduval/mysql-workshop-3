@@ -1,0 +1,8 @@
+select count(*), Phone.subtype from Entry join Phone on Entry.id = Phone.entryId where Entry.birthday between '1950-10-01 00:00:00' and '1960-10-01 00:00:00' group by Phone.subtype;                                                                                                
++----------+----------+
+| count(*) | subtype  |
++----------+----------+
+|      510 | landline |
+|      414 | cellular |
+|      402 | fax      |
++----------+----------+
