@@ -1,0 +1,8 @@
+create database decodemtl_addressbook;
+
+create table Account (id int auto_increment primary key);
+create table AddressBook (id int auto_increment primary key);
+create table Entry(id int auto_increment primary key, type enum ('phone','address','electronic-mail'));
+create table Address(id int auto_increment primary key, type enum('home','work','other'));
+create table Email (id int auto_increment primary key, type enum ('home','work','other'));
+create table Phone (id int auto_increment primary key, type enum('home','work','other'), subtype enum('landline','cellular','fax'));
